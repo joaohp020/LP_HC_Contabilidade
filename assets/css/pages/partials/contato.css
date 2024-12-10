@@ -197,12 +197,12 @@ input {
 
     #contato .feedback-item img {
         width: 248px;
-    }
+    }   
 
     .formulario {
-        height: 28rem;
-        width: 342px;
-        padding: 42px 15px;
+        height: 19rem;
+        width: 286px;
+        /* padding: 42px 15px; */
     }
 
     .formulario h3 {
@@ -257,29 +257,16 @@ input {
     }
 
     .formulario {
-        height: 41rem;
-        width: 500px;
-        padding: 57px 20px;
-        border-radius: 20px;
-        background-color: #ffffff40;
+        width: 515px;
     }
 
     .formulario h3 {
         font-size: 28px;
     }
 
-    .nome,
-    .email,
-    .telefone {
-        margin: 2rem 0 25px 0;
-    }
-
-    label {
-        font-size: 20px;
-    }
-
     input {
-        font-size: 18px;
+        font-size: 24px;
         padding: 27px 28px;
+        margin: 0 0 28px 0;
     }
 }

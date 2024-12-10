@@ -5,7 +5,7 @@
     background-color: var(--cor-preto);
     gap: 0rem;
     height: 98vh;
-    margin: 5rem 0 0 15rem;
+    margin: 3rem 0 0 15rem;
     width: 65%;
     border-radius: 38px;
     padding: 30px 50px;
@@ -171,26 +171,50 @@
 
 @media (min-width: 1024px) and (max-width: 1365px) {
     #porqueEscolher {
-        height: 78vh;
-        padding: 0 10rem;
+        height: 98vh;
+        margin: 3rem 0 0 11rem;
+        width: 64%;
+        border-radius: 25px;
+        padding: 30px 50px;
     }
 
-    #porqueEscolher img {
-        width: 300px;
-    }
-
-    #porqueEscolher h3 {
-        font-size: 18px;
+    #porqueEscolher #luz {
+        width: 889.15px;
+        height: 694.22px;
+        z-index: 0;
+        margin: 5rem 0 0 0rem;
     }
 
     #porqueEscolher h2 {
-        font-size: 25px;
+        font-size: 19px;
+    }
+
+    #porqueEscolher h4 {
+        width: 79%;
+        font-size: 18px;
+        margin: 2rem 0 1rem 0;
     }
 
     #porqueEscolher p {
-        width: 100%;
-        font-size: 15px;
-        margin: 2rem 0 0 0;
+        width: 79%;
+        font-size: 13px;
+        margin: 1rem 0 0 0;
+    }
+
+    #box {
+        width: 63%;
+        height: 7rem;
+        margin: -3.5rem 0 0 12rem;
+        border-radius: 14px;
+    }
+
+    #box p {
+        font-size: 16px;
+        width: 75%;
+    }
+
+    #box p span {
+        font-size: 17px;
     }
 }
 
@@ -216,17 +240,30 @@
 
 @media (min-width: 1981px) and (max-width: 2560px) {
     #porqueEscolher {
-        gap: 3rem;
-        padding: 0 30rem;
-        height: 82vh;
+        height: 100vh;
+        margin: 8rem 0 0 25rem;
     }
 
-    #porqueEscolher img {
-        width: 750px;
+    #porqueEscolher #feedbacks {
+        width: 830px;
+        background-size: cover;
+        background-position: top;
+        position: relative;
+        z-index: 1;
+        margin: 0 0 4rem 0;
     }
 
-    #porqueEscolher h3 {
-        font-size: 38px;
+    #porqueEscolher #luz {
+        position: absolute;
+        width: 80%;
+        height: 136%;
+        margin: 2rem 0 0 0rem;
+    }
+
+    #porqueEscolher h4 {
+        width: 79%;
+        font-size: 40px;
+        margin: 4rem 0 3rem 0;
     }
 
     #porqueEscolher h2 {
@@ -234,8 +271,45 @@
     }
 
     #porqueEscolher p {
-        width: 100%;
-        font-size: 34px;
-        letter-spacing: 3px;
+        width: 50%;
+        font-size: 26px;
+        letter-spacing: 0px;
+    }
+
+    #fale-conosco .acoes h3 {
+        font-size: 40px;
+    }
+
+    #fale-conosco {
+        padding: 6rem 0 12rem 0;
+    }
+
+    #fale-conosco .acoes {
+        gap: 2rem;
+    }
+
+    #fale-conosco .acoes a {
+        font-size: 20px;
+        width: 275px;
+        height: 4.5rem;
+        border-radius: 12px;
+    }
+
+    #box {
+        width: 65%;
+        height: 10rem;
+        margin: -5.5rem 0 0 15rem;
+        border-radius: 14px;
+        left: 6%;
+    }
+
+    #box p {
+        font-size: 32px;
+        width: 75%;
+        margin: 0px;
+    }
+
+    #box p span {
+        font-size: 32px;
     }
 }
