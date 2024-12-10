@@ -94,14 +94,38 @@ footer #grid {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-    section.linha img {
-        width: 90%;
-    }
-
     footer {
         padding: 0 15px;
-        height: 95vh;
+        height: 115vh;
         align-items: start;
+    }
+
+    footer .topo .texto h2 {
+        width: 95%;
+        font-size: 20px;
+    }
+
+    footer #grid {
+        left: -82%;
+        bottom: 0%;
+        width: 448px;
+    }
+
+    footer .topo .texto p {
+        width: 95%;
+        font-size: 12px;
+        margin: 1.2rem 0 0 0;
+    }
+
+    footer .topo .texto {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer .topo {
+        margin: 0 0 0rem 0;
+        z-index: 2;
+        flex-direction: column;
     }
 
     .dados {
@@ -113,6 +137,12 @@ footer #grid {
     footer .email,
     footer .telefone {
         margin: -1.8rem 0 0 0;
+    }
+
+    footer #luz {
+        /* left: 14%;
+        height: 90vh; */
+        display: none;
     }
 
     footer p.rodape {

@@ -66,25 +66,31 @@
 
 @media (min-width: 320px) and (max-width: 768px) {
     #servicos {
-        height: 120vh;
+        height: 135vh;
         padding: 0 15px;
+        flex-direction: column;
     }
 
-    #servicos img {
-        width: 142px;
+    #servicos #luz {
+        display: none;
     }
 
-    .topo .texto h3 {
+    #servicos #pc {
+        width: 75vw;
+        margin: 0 0 0 0rem;
+    }
+
+    #servicos .topo .texto h3 {
         font-size: 21px;
     }
 
-    .topo .texto h2 {
+    #servicos .topo .texto h2 {
         font-size: 25px;
     }
 
-    .topo .texto p {
-        width: 100%;
-        font-size: 19px;
+    #servicos .topo .texto p {
+        width: 100% !important;
+        font-size: 15px;
         margin: 1rem 0 2rem 0;
     }
 
@@ -92,6 +98,7 @@
         justify-content: space-between;
         margin: 0 0 1rem 0;
         flex-direction: column;
+        width: 100%;
     }
 
     .topo-cards {

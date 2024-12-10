@@ -145,13 +145,23 @@
         justify-content: center;
         gap: 2rem;
         padding: 0 15px;
-        height: 125vh;
+        height: 75vh;
+        margin: 3rem 0 0 15px !important;
+        width: 90vw !important;
+        border-radius: 24px;
     }
 
-    #porqueEscolher img {
-        width: 275px;
-        background-size: cover;
-        background-position: top;
+    #porqueEscolher #luz {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        margin: 1rem 0 0 0rem;
+    }
+
+    #porqueEscolher #feedbacks {
+        width: 83vw;
+        z-index: 1;
+        margin: 0 0 0rem 0;
     }
 
     #porqueEscolher h3 {
@@ -159,13 +169,58 @@
     }
 
     #porqueEscolher h2 {
-        font-size: 25px;
+        font-size: 12px;
+        width: 92%;
+    }
+
+    #porqueEscolher h4 {
+        width: 79%;
+        font-size: 11px;
+        margin: 0rem 0 -1rem 0;
     }
 
     #porqueEscolher p {
-        width: 100%;
+        width: 95%;
+        font-size: 10px;
+        margin: -1rem 0 0 0;
+    }
+
+    #fale-conosco {
+        padding: 5rem 15px 9rem 15px;
+    }
+
+    #fale-conosco .acoes {
+        gap: 4px;
+    }
+
+    #fale-conosco .acoes h3 {
+        width: 70%;
         font-size: 14px;
-        margin: 1rem 0 0 0;
+    }
+
+    #fale-conosco .acoes a {
+        font-size: 15px;
+        width: 200px;
+        height: 3rem;
+        border-radius: 12px;
+    }
+
+    #box {
+        width: 90vw;
+        height: 7rem;
+        margin: -3.5rem 0 0 15px;
+        border-radius: 14px;
+        z-index: 3;
+    }
+
+    #box p {
+        font-size: 13px;
+        width: 85%;
+        margin: 0px;
+    }
+
+    #box p span {
+        font-size: 13px;
     }
 }
 
@@ -219,18 +274,26 @@
 }
 
 @media (min-width: 1366px) and (max-width: 1440px) {
+    #porqueEscolher {
+        height: 105vh;
+        margin: 3rem 0 0 15rem;
+        width: 65%;
+        border-radius: 38px;
+        padding: 30px 50px;
+    }
+
     #porqueEscolher h3 {
         font-size: 25px;
     }
 
     #porqueEscolher h2 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     #porqueEscolher p {
-        width: 100%;
-        font-size: 15px;
-        letter-spacing: 1px;
+        width: 57%;
+        font-size: 13px;
+        letter-spacing: 0px;
     }
 
     #porqueEscolher img {
