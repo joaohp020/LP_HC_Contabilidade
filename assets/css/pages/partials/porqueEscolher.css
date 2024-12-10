@@ -1,0 +1,241 @@
+#porqueEscolher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-preto);
+    gap: 0rem;
+    height: 98vh;
+    margin: 5rem 0 0 15rem;
+    width: 65%;
+    border-radius: 38px;
+    padding: 30px 50px;
+    justify-content: center;
+}
+
+#porqueEscolher h3 {
+    color: var(--cor-azul-escuro);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    width: 95%;
+    font-size: 34px;
+}
+
+#porqueEscolher h2 {
+    color: var(--cor-branco);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    width: 79%;
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+}
+
+#porqueEscolher h4 {
+    color: var(--cor-branco);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    width: 79%;
+    font-size: 22px;
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+}
+
+#porqueEscolher p {
+    color: var(--cor-branco);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    width: 52%;
+    font-size: 13px;
+    margin: 1rem 0 0 0;
+    text-align: center;
+    position: relative;
+}
+
+#porqueEscolher #luz {
+    position: absolute;
+    /* width: 95%; */
+    width: 1135.15px;
+    /* height: 161%; */
+    height: 850.22px;
+    z-index: 0;
+    margin: 5rem 0 0 0rem;
+}
+
+#porqueEscolher #feedbacks {
+    width: 520px;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    z-index: 1;
+    margin: 0 0 2rem 0;
+}
+
+#fale-conosco {
+    width: 100%;
+    padding: 5rem 0 8rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fale-conosco .acoes {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+#fale-conosco .acoes h3 {
+    color: var(--cor-preto);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    /* width: 55%; */
+    font-style: italic;
+    font-size: 25px;
+}
+
+#fale-conosco .acoes a {
+    background: var(--cor-azul-claro);
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--cor-branco);
+    width: 200px;
+    height: 3.5rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box {
+    width: 65%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -3.5rem 0 0 15rem;
+    background-color: var(--cor-branco);
+    border-radius: 14px;
+    position: absolute;
+    z-index: 3;
+}
+
+#box p {
+    color: var(--cor-preto);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    width: 75%;
+    margin: 0px;
+    text-align: center;
+}
+
+#box p span {
+    color: var(--cor-azul-claro);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    #porqueEscolher {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        padding: 0 15px;
+        height: 125vh;
+    }
+
+    #porqueEscolher img {
+        width: 275px;
+        background-size: cover;
+        background-position: top;
+    }
+
+    #porqueEscolher h3 {
+        font-size: 18px;
+    }
+
+    #porqueEscolher h2 {
+        font-size: 25px;
+    }
+
+    #porqueEscolher p {
+        width: 100%;
+        font-size: 14px;
+        margin: 1rem 0 0 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+    #porqueEscolher {
+        height: 78vh;
+        padding: 0 10rem;
+    }
+
+    #porqueEscolher img {
+        width: 300px;
+    }
+
+    #porqueEscolher h3 {
+        font-size: 18px;
+    }
+
+    #porqueEscolher h2 {
+        font-size: 25px;
+    }
+
+    #porqueEscolher p {
+        width: 100%;
+        font-size: 15px;
+        margin: 2rem 0 0 0;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+    #porqueEscolher h3 {
+        font-size: 25px;
+    }
+
+    #porqueEscolher h2 {
+        font-size: 32px;
+    }
+
+    #porqueEscolher p {
+        width: 100%;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    #porqueEscolher img {
+        width: 390px;
+    }
+}
+
+@media (min-width: 1981px) and (max-width: 2560px) {
+    #porqueEscolher {
+        gap: 3rem;
+        padding: 0 30rem;
+        height: 82vh;
+    }
+
+    #porqueEscolher img {
+        width: 750px;
+    }
+
+    #porqueEscolher h3 {
+        font-size: 38px;
+    }
+
+    #porqueEscolher h2 {
+        font-size: 45px;
+    }
+
+    #porqueEscolher p {
+        width: 100%;
+        font-size: 34px;
+        letter-spacing: 3px;
+    }
+}
